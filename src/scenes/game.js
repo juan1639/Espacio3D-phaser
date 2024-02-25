@@ -15,18 +15,7 @@ export class Game extends Phaser.Scene {
     this.botonfullscreen = new BotonFullScreen(this);
   }
 
-  preload() {
-
-    this.load.image('estrellaSparkle', './src/img/sparkle1.png');
-    this.load.image('fondo', './src/img/fondo-espacial-azulRojizo.png');
-    this.load.image('barra', './src/img/barra-energia.png');
-
-    this.load.spritesheet(
-      'boton-fullscreen', './src/img/boton-fullscreen.png', {frameWidth: 64, frameHeight: 64}
-    );
-
-    this.load.audio('musica-fondo', './src/audio/backgroundMusic.wav');
-  }
+  preload() {}
 
   create() {
 
